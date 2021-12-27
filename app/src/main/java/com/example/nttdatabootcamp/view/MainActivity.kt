@@ -1,4 +1,4 @@
-package com.example.nttdatabootcamp
+package com.example.nttdatabootcamp.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,10 +11,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnVamosComecar = findViewById<Button>(R.id.vamosComecar)
-
-        btnVamosComecar.setOnClickListener {
+        val btnCalendar = findViewById<Button>(R.id.nextToCalendar)
+        btnCalendar.setOnClickListener {
             startActivity(Intent(this, Calendar::class.java))
+        }
+
+        val btnContact = findViewById<Button>(R.id.nextToContacts)
+        btnContact.setOnClickListener {
+            startActivity(Intent(this, Contacts::class.java))
         }
 
     }

@@ -1,4 +1,4 @@
-package com.example.nttdatabootcamp
+package com.example.nttdatabootcamp.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -26,9 +26,6 @@ class Calendar : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val btnProximo = findViewById<Button>(R.id.nextToContacts)
-        btnProximo.setOnClickListener {
-            startActivity(Intent(this, Contats::class.java))
-        }
+
     }
 }

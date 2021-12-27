@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AgendaaBootcamp">
         <activity
-            android:name="com.example.nttdatabootcamp.Contats"
+            android:name="com.example.nttdatabootcamp.view.Contacts"
             android:exported="false" />
         <activity
-            android:name="com.example.nttdatabootcamp.Calendar"
+            android:name="com.example.nttdatabootcamp.view.Calendar"
             android:exported="false" />
         <activity
-            android:name="com.example.nttdatabootcamp.MainActivity"
+            android:name="com.example.nttdatabootcamp.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
