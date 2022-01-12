@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/UFMS/AndroidStudioProjects/NTT-Data-Android-Developer-Bootcamp/app/src/main/res/drawable/image.xml" value="0.17222222222222222" />
         <entry key="..\:/Users/UFMS/AndroidStudioProjects/NTT-Data-Android-Developer-Bootcamp/app/src/main/res/layout/activity_calendar.xml" value="0.1" />
         <entry key="..\:/Users/UFMS/AndroidStudioProjects/NTT-Data-Android-Developer-Bootcamp/app/src/main/res/layout/activity_contacts.xml" value="0.18" />
         <entry key="..\:/Users/UFMS/AndroidStudioProjects/NTT-Data-Android-Developer-Bootcamp/app/src/main/res/layout/activity_contats.xml" value="0.1" />
         <entry key="..\:/Users/UFMS/AndroidStudioProjects/NTT-Data-Android-Developer-Bootcamp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/UFMS/AndroidStudioProjects/NTT-Data-Android-Developer-Bootcamp/app/src/main/res/layout/activity_photo.xml" value="0.16" />
         <entry key="..\:/Users/UFMS/AndroidStudioProjects/NTT-Data-Android-Developer-Bootcamp/app/src/main/res/layout/contact_view.xml" value="0.18" />
       </map>
     </option>

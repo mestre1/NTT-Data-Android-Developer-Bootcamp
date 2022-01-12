@@ -55,4 +55,17 @@
         android:layout_margin="20dp"
         android:padding="10dp"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextToPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Photo"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
 </LinearLayout>

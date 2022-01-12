@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.nttdatabootcamp.view.Photo">
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:scaleType="centerCrop"
+      android:contentDescription="@string/selected_image"
+      android:src="@drawable/image"
+      android:layout_width="370dp"
+      android:layout_height="370dp"
+      android:padding="10dp"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/pickButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Selecione uma Imagem"
+      android:textColor="@color/white"
+      android:textStyle="bold"
+      android:textAlignment="center"
+      android:textSize="20sp"
+      android:background="@drawable/button"
+      android:layout_margin="20dp"
+      android:padding="10dp"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/openCameraButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Tirar uma Foto"
+      android:textColor="@color/white"
+      android:textStyle="bold"
+      android:textAlignment="center"
+      android:textSize="20sp"
+      android:background="@drawable/button"
+      android:layout_margin="20dp"
+      android:padding="10dp"/>
+
+  </LinearLayout>

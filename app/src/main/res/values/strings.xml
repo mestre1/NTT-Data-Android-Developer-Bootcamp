@@ -2,4 +2,6 @@
     <string name="app_name">AgendaaBootcamp</string>
     <string name="introduction">Este App foi feito com o intuito de particar as habilidades aprendidas no
 Bootcamp NTT DATA promovido pela Digital Inovation One</string>
+    <string name="selected_image">Imagem selecionada pelo usuario</string>
+    <string name="title_activity_maps">Maps</string>
 </resources>
